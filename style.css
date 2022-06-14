@@ -82,7 +82,21 @@ h1{
   border: none;
   border-radius: 16px;
 }
+.thank-you-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap:14px;
+}
 
+.user-rating{
+  color:var(--primary-color);
+  background-color: var(--Very-Dark-Blue);
+  opacity:50% ;
+  padding: 8px;
+  border-radius:18px;
+}
 @media (min-width:768px) {
   .container{
     width: 30%;
