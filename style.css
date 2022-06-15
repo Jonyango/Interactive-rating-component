@@ -72,6 +72,10 @@ h1{
   align-items: center;
   cursor:pointer;
 }
+.rating:hover{
+  background-color: var(--primary-color);
+  opacity: 1;
+}
 
 .btn-submit{
   background-color: var(--primary-color);
@@ -90,6 +94,9 @@ h1{
   align-items: center;
   gap:14px;
 }
+#thank-you{
+  display: none;
+}
 
 .user-rating{
   color:var(--primary-color);
@@ -97,6 +104,10 @@ h1{
   opacity:50% ;
   padding: 8px;
   border-radius:18px;
+}
+.btn-submit:hover{
+  background-color: var(--White);
+  color:var(--primary-color);
 }
 @media (min-width:768px) {
   .container{
