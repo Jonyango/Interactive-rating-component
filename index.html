@@ -22,7 +22,7 @@
 
   <!-- Rating state start -->
   <section id="rating-card"  class="card">
-    <div class="container" id="cont-rate">
+    <form class="container" id="cont-rate" action="#">
       <div class="icon-star">
         <img src="images/icon-star.svg" alt="An orange star">
           </div>
@@ -36,16 +36,32 @@
             </p>
           </div>
           <div class="ratings-container">
-            <span class="rating">1</span>
-            <span class="rating">2</span>
-            <span class="rating">3</span>
-            <span class="rating">4</span>
-            <span class="rating">5</span>
+            <input type="radio" value="1"  id="one" name="rating">
+            <label for="one">
+              <span>1</span>
+            </label>
+            <input type="radio" value="2"  id="two" name="rating">
+            <label for="two">
+              <span>2</span>
+            </label>
+            <input type="radio" value="3"  id="three" name="rating">
+            <label for="three">
+              <span>3</span>
+            </label>
+            <input type="radio" value="4"  id="four" name="rating">
+            <label for="four">
+              <span>4</span>
+            </label>
+            <input type="radio" value="5"  id="five" name="rating">
+            <label for="five">
+              <span>5</span>
+            </label>
+            
           </div>
           <div>
             <button class="btn-submit">SUBMIT</button>
           </div>
-    </div>
+        </form>
     <div class="container" id="thank-you">
       <div class="thank-you-container" >
         <img src="images/illustration-thank-you.svg" alt="Thank you illustration">

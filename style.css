@@ -35,13 +35,13 @@ h1{
   flex-direction: column;
   gap:14px;
   background-color: var(--Dark-Blue);
-  border-radius: 18px;
-  width: 90%;
+  border-radius:5%;
+  width: 80%;
   padding:20px;
 }
 
 .icon-star{
-  background: rgba(18,20,23 .4) ;
+  background: rgba(18,20,23, .4) ;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -59,23 +59,13 @@ h1{
   justify-content: space-between;
 }
 
-.rating{
-  color:var(--Light-Grey);
-  background-color: var(--Very-Dark-Blue);
-  opacity:50% ;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor:pointer;
-}
+
 .rating:hover{
   background-color: var(--primary-color);
   opacity: 1;
 }
+
+
 
 .btn-submit{
   background-color: var(--primary-color);
@@ -94,6 +84,7 @@ h1{
   align-items: center;
   gap:14px;
 }
+
 #thank-you{
   display: none;
 }
@@ -105,12 +96,60 @@ h1{
   padding: 8px;
   border-radius:18px;
 }
+
 .btn-submit:hover{
   background-color: var(--White);
   color:var(--primary-color);
 }
-@media (min-width:768px) {
+
+
+input[type="radio"] {
+	appearance: none;
+	
+}
+
+input[type="radio"] + label:hover {
+  background: var(--primary-color);
+	color: var(--White);
+  opacity: 1;
+}
+
+input[type="radio"] + label:active {
+  background: var(--Light-Grey);
+	color: var(--White);
+  opacity: 1;
+}
+
+input[type=radio]:checked + label {
+  background: var(--Light-Grey);
+	color: var(--White);
+  opacity: 1;
+}
+
+label {
+  background-color: var(--Very-Dark-Blue);
+	color: var(--Medium-Grey);
+  opacity: 40%;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	cursor: pointer;   
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width:500px) {
   .container{
     width: 30%;
+    height: 24rem;
+    border-radius: 8%;
+    padding: 28px;
+    gap: 18px;
   }
+  .icon-star{
+    margin-top: 1.5rem;
+  }
+
+ 
 }
