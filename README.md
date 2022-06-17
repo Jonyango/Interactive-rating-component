@@ -27,10 +27,7 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
-
-
-
-
+-![i](https://user-images.githubusercontent.com/43377714/174289953-10bd4284-c81a-4318-be66-c4b1549090e8.PNG)
 
 ### Links
 
