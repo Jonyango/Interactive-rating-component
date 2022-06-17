@@ -70,5 +70,4 @@ I want continue learning about the DOM as well as mobile responsiveness.
 ## Author
 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Jonyango)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
