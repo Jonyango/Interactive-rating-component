@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Jonyango/Interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://interactive-fm-rating-component.netlify.app/)
+- [Github Solution](https://github.com/Jonyango/Interactive-rating-component)
+- [Live site Url](https://interactive-fm-rating-component.netlify.app/)
 
 ## My process
 
@@ -63,5 +63,5 @@ I want continue learning about the DOM as well as mobile responsiveness.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Jonyango)
+- Frontend Mentor - [@Jonyango](https://www.frontendmentor.io/profile/Jonyango)
 
